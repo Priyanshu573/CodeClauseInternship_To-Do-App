@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- list_item_task.xml -->
+    <!-- list_item_task.xml -->
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@drawable/task_item_background">
+
+        <CheckBox
+            android:id="@+id/taskCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sample Task"
+            android:textSize="18sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="8dp"/>
+
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/round_button_with_plus"
+            android:drawableTop="@android:drawable/ic_delete"
+            android:gravity="center"
+            android:text=""
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
